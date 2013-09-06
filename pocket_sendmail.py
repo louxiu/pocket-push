@@ -137,6 +137,7 @@ def send2pocket(links):
     send2pocket_lock.acquire()
 
     # links = links_tuple[0]
+    # NOTE: Change this to ur mail account
     from_addr = "lou.0211@gmail.com"
     to_addr = "add@getpocket.com"
     # better not provide subject, use the web name
